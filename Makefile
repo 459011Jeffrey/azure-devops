@@ -10,10 +10,11 @@ makeenv:
 activateenv:
 	source ~/.azure-devops/bin/activate
 test:
-    python -m pytest -vv test_hello.py
+	python -m pytest -vv test_hello.py
 
 all: hello install
 ma: makeenv activateenv install
+
 
 
 
