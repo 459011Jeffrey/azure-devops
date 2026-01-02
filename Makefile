@@ -9,5 +9,6 @@ makeenv:
 activateenv:
 	source ~/.azure-devops/bin/activate
 all: hello install
-ma: makeenv activateenv
+ma: makeenv activateenv install
+
 
